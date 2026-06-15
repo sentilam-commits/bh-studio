@@ -369,14 +369,14 @@
     }
 
     .stage-product.primary {
-      width: 54%;
-      right: 23%;
+      width: 44%;
+      right: 29%;
       bottom: 14px;
       z-index: 3;
     }
 
     .stage-product.left {
-      width: 39%;
+      width: 33%;
       left: 5%;
       bottom: 44px;
       z-index: 2;
@@ -384,8 +384,8 @@
     }
 
     .stage-product.right {
-      width: 38%;
-      right: 3%;
+      width: 33%;
+      right: 5%;
       bottom: 50px;
       z-index: 1;
       transform: rotate(5deg);
@@ -1442,12 +1442,14 @@
       background: rgba(41, 41, 41, 0.38);
       backdrop-filter: blur(8px);
       opacity: 0;
+      visibility: hidden;
       pointer-events: none;
       transition: opacity 190ms ease;
     }
 
     .modal-backdrop.open {
       opacity: 1;
+      visibility: visible;
       pointer-events: auto;
     }
 
@@ -1882,7 +1884,7 @@
           </div>
           <div class="hero-mini-grid">
             <div class="mini-stat"><span>Activo hoy</span><strong>18 puntos</strong></div>
-            <div class="mini-stat"><span>Portafolio</span><strong>7 categorías</strong></div>
+            <div class="mini-stat"><span>Portafolio</span><strong>7 líneas</strong></div>
             <div class="mini-stat"><span>Control frío</span><strong>92% OK</strong></div>
           </div>
         </div>
